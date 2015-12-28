@@ -289,3 +289,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
 	$(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so
+
+# Keymaster Firmware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
