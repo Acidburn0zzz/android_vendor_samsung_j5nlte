@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
 	$(LOCAL_PATH)/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
 	$(LOCAL_PATH)/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
 	$(LOCAL_PATH)/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
